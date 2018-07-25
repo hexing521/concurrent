@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d769b51-e5da-40b9-b754-0e2338ef746b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp3.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp4.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonExmp1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingletonExmp1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="154">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -64,11 +62,28 @@
       <file leaf-file-name="SingletonExmp2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingletonExmp4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,16 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongAdder.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -168,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp4.java" />
       </list>
     </option>
   </component>
@@ -541,12 +547,12 @@
       <workItem from="1531919787512" duration="1152000" />
       <workItem from="1531920984269" duration="3284000" />
       <workItem from="1531925977533" duration="39000" />
-      <workItem from="1532528644861" duration="2007000" />
+      <workItem from="1532528644861" duration="3054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16244000" />
+    <option name="totallyTimeSpent" value="17291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="0" />
@@ -571,7 +577,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34458673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6332945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -598,14 +604,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2618">
@@ -1407,10 +1405,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
@@ -1418,11 +1424,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
