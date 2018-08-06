@@ -3,6 +3,7 @@ package com.concurrent.concurrent.syncContainor;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
+import java.util.Stack;
 import java.util.Vector;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -24,6 +25,8 @@ public class VectorDemo1 {
      * Vector在get，set，add方法上使用synchronized实现线程安全
      */
     private static List<Integer> list = new Vector<>();
+//    private static List<Integer> list = new Stack<>();
+
 
     public static void main(String[] args) throws Exception {
         ExecutorService executorService = Executors.newCachedThreadPool();
