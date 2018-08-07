@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d769b51-e5da-40b9-b754-0e2338ef746b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentHashMapExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListMapExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListSetExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArrayListExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArraySetExample.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo1.java" afterPath="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,68 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringExample1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/StringExample1.java">
+      <file leaf-file-name="ImmutableExample1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo1.java">
+      <file leaf-file-name="ConcurrentApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/ConcurrentApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1349">
-              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="827" column="26" lean-forward="false" selection-start-line="827" selection-start-column="26" selection-end-line="827" selection-end-column="26" />
-              <folding>
-                <element signature="e#5671#5672#0" expanded="true" />
-                <element signature="e#5695#5696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocalDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadlocal/ThreadLocalDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -99,7 +55,41 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/DateFormatExample1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringExample1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/StringExample1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyOnWriteArrayListExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArrayListExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyOnWriteArraySetExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArraySetExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,32 +97,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java">
+      <file leaf-file-name="ConcurrentSkipListSetExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+            <state relative-caret-position="744">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentSkipListMapExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentHashMapExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentHashMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/example/ConcurrentTest.java">
+      <file leaf-file-name="ImmutableExample3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-326">
-              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VectorDemo2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#629#647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,6 +191,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/DateFormatExample1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListSetExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArraySetExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArrayListExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentHashMapExample.java" />
       </list>
     </option>
   </component>
@@ -242,8 +253,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,22 +293,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="threadlocal" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrentContainor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +311,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="atomicin&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;hashset&#9;PSI&#9;JAVA://java.util.HashSet&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;LongAdd&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger" />
+    <property name="SearchEverywhereHistoryKey" value="copyonwriteArrayList&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;atomicin&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;hashset&#9;PSI&#9;JAVA://java.util.HashSet&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;LongAdd&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -320,12 +322,14 @@
       <recent name="com.concurrent.concurrent.example.sync" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.concurrent.concurrent.concurrentContainor" />
       <recent name="com.concurrent.concurrent.syncContainor" />
       <recent name="com.concurrent.concurrent.singleton" />
       <recent name="com.concurrent.concurrent.example.actomics" />
       <recent name="com.concurrent.concurrent.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor" />
       <recent name="$PROJECT_DIR$/src/main/java/com/concurrent/concurrent" />
     </key>
   </component>
@@ -512,7 +516,8 @@
       <workItem from="1532955291732" duration="2988000" />
       <workItem from="1533178376160" duration="7945000" />
       <workItem from="1533347327695" duration="1574000" />
-      <workItem from="1533539393508" duration="2896000" />
+      <workItem from="1533539393508" duration="5125000" />
+      <workItem from="1533605836205" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="use vector sync containor">
       <created>1533542127046</created>
@@ -525,7 +530,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35761000" />
+    <option name="totallyTimeSpent" value="40952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="0" />
@@ -537,33 +542,33 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124542125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10927961" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11525029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005821" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23981373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06169965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,18 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/example/ConcurrentTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/example/sync/SynchronizedExem1.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,16 +644,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/singleton/SingletonExmp4.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample3.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/ConcurrentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/jdk8/src.zip!/java/lang/Thread.java" />
     <entry file="jar://E:/jdk8/src.zip!/java/lang/ThreadLocal.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -675,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,11 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2664">
           <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9642#0" expanded="false" />
-            <element signature="e#4021#4022#0" expanded="false" />
-            <element signature="e#4085#4086#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,102 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="325" column="46" lean-forward="false" selection-start-line="325" selection-start-column="46" selection-end-line="325" selection-end-column="46" />
-          <folding>
-            <marker date="1504666619000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1504666619000" expanded="false" signature="132:297" ph="..." />
-            <marker date="1504666619000" expanded="true" signature="1492:1499" ph="{}" />
-            <marker date="1504666619000" expanded="true" signature="1559:1787" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="2950:2968" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3029:3040" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3077:3083" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3089:3107" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3179:3190" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3226:3232" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3238:3256" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3323:3334" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3374:3380" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3386:3404" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3482:3493" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3532:3538" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3544:3562" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3631:3642" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3683:3689" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3695:3713" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3793:3804" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3844:3850" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3856:3874" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="3937:3948" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="3986:3992" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="3998:4016" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4090:4101" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4138:4144" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4150:4168" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4233:4244" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4283:4289" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4295:4313" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4389:4400" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4438:4444" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4450:4468" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4531:4542" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4580:4586" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4592:4610" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4684:4695" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4732:4738" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4744:4762" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4825:4836" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="4874:4880" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="4886:4904" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="4978:4989" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="5026:5032" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="5038:5056" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="5121:5132" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="5171:5177" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="5183:5201" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="5277:5288" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="5326:5332" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="5338:5356" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="5423:5434" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="5474:5480" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="5486:5504" ph="/**...*/" />
-            <marker date="1504666619000" expanded="false" signature="5582:5593" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="5632:5638" ph=" }" />
-            <marker date="1504666619000" expanded="false" signature="6704:6715" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="6762:6768" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="6925:7003" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="7056:7074" ph="/**...*/" />
-            <marker date="1504666619000" expanded="true" signature="7130:7264" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="7270:7288" ph="/**...*/" />
-            <marker date="1504666619000" expanded="true" signature="7354:7634" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="8424:8442" ph="/**...*/" />
-            <marker date="1504666619000" expanded="true" signature="8514:8532" ph="/**...*/" />
-            <marker date="1504666619000" expanded="true" signature="8603:8621" ph="/**...*/" />
-            <marker date="1504666619000" expanded="true" signature="10811:10996" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="11069:11257" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="11327:11505" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="11578:11759" ph="{...}" />
-            <marker date="1504666619000" expanded="true" signature="11838:12025" ph="{...}" />
-            <marker date="1504666619000" expanded="false" signature="12188:12199" ph=" { " />
-            <marker date="1504666619000" expanded="false" signature="12230:12236" ph=" }" />
-            <marker date="1504666619000" expanded="true" signature="12249:13814" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/DateFormatExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/StringExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,14 +714,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadlocal/ThreadLocalDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1349">
+        <state relative-caret-position="600">
           <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
@@ -851,19 +729,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="456">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1554#1555#0" expanded="false" />
+            <element signature="e#1581#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/example/ConcurrentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
+        <state relative-caret-position="528">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
@@ -871,7 +749,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="18576">
           <caret line="827" column="26" lean-forward="false" selection-start-line="827" selection-start-column="26" selection-end-line="827" selection-end-column="26" />
           <folding>
             <element signature="e#5671#5672#0" expanded="true" />
@@ -882,8 +760,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/syncContainor/VectorDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="768">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8808">
+          <caret line="434" column="27" lean-forward="false" selection-start-line="434" selection-start-column="14" selection-end-line="434" selection-end-column="27" />
+          <folding>
+            <element signature="e#13527#13528#0" expanded="true" />
+            <element signature="e#13562#13563#0" expanded="true" />
+            <element signature="e#13692#13693#0" expanded="true" />
+            <element signature="e#13737#13738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#629#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/immutable/ImmutableExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/ConcurrentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/DateFormatExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/threadUnsafeClassDemo/StringExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArrayListExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/CopyOnWriteArraySetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentSkipListMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/concurrent/concurrentContainor/ConcurrentHashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
