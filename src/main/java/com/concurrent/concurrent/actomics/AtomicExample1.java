@@ -1,8 +1,12 @@
-package com.concurrent.concurrent.example.actomics;
+package com.concurrent.concurrent.actomics;
 
 
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * 解决CAS出现ABA的问题
+ *
+ */
 public class AtomicExample1 {
 
     private static AtomicReference<Integer> count = new AtomicReference<>(0);

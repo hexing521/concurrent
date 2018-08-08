@@ -1,4 +1,4 @@
-package com.concurrent.concurrent.example.actomics;
+package com.concurrent.concurrent.actomics;
 
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
