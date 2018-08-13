@@ -2,46 +2,43 @@ package com.concurrent.concurrent.aqs;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Semaphore;
 
 /**
- * 【countDownLatch】
- * 主要是来做线程同步的组件
+ *【Semaphore】
+ * 信号量  对线程的并发数的控制
  */
 @Slf4j
-public class CountDownLatchExample1 {
+public class SemaphoreExample3 {
 
-    private final static int threadCount = 200;
+    private final static int threadCount = 20;
 
     public static void main(String[] args) throws Exception {
 
         ExecutorService exec = Executors.newCachedThreadPool();
 
-        //TODO 初始化CountDownLatch 并且设置CountDownLatch的初始值为threadCount
-        final CountDownLatch countDownLatch = new CountDownLatch(threadCount);
+        final Semaphore semaphore = new Semaphore(3);
 
         for (int i = 0; i < threadCount; i++) {
             final int threadNum = i;
             exec.execute(() -> {
                 try {
-                    test(threadNum);
+                    if (semaphore.tryAcquire()) { //todo 尝试获取一个许可  如果获取到了许可则执行 获取不到许可则放弃
+                        test(threadNum);
+                        semaphore.release(); // TODO 释放一个许可
+                    }
                 } catch (Exception e) {
                     log.error("exception", e);
-                } finally {
-                    countDownLatch.countDown();//todo countDownLatch的值依次减1
                 }
             });
         }
-        countDownLatch.await();//TODO 阻塞等待countDownLatch的值减为0的时候才会执行下面的代码
-        log.info("finish");
         exec.shutdown();
     }
 
     private static void test(int threadNum) throws Exception {
-        Thread.sleep(100);
         log.info("{}", threadNum);
-        Thread.sleep(100);
+        Thread.sleep(1000);
     }
 }
