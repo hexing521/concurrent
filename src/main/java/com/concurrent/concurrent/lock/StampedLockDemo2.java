@@ -6,24 +6,13 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.StampedLock;
 
 /**
- * 【使用synchronized锁】
- *  一 sychronized:jvm层次实现的，会自动加锁与解锁,当只有少量竞争者的时候,
- *  sychronized是个很好的锁实现;
- *  二 线程不少,但是线程增长的趋势是可以预估的,这时候ReentrantLock是一个很好的通用的锁实现;
- *  特别注意解锁,防止死锁;
- *
- *使用:
- * synchronized的实现 依赖于jvm，所以不会忘记释放锁，因为，在退出synchronized块的时候，JVM会帮助释放锁。
- * synchronized非公平锁，其优化借鉴ReentrantLock中的CAS，引入了偏量锁轻量级锁，也就是咨询锁后，两者性能差不多，
- * 在两种方法都可用的情况下，官方更建议使用synchronized，写法更容易。
- *
- * ReentrantLock（可重入锁）的实现 依赖于代码，默认不公平锁， 独有功能
- *
+ * 【属于乐观锁】
  */
 @Slf4j
-public class SynchronizedLockDemo {
+public class StampedLockDemo2 {
 
     // 请求总数
     public static int clientTotal = 5000;
@@ -32,6 +21,8 @@ public class SynchronizedLockDemo {
     public static int threadTotal = 200;
 
     public static int count = 0;
+
+    private final static StampedLock lock = new StampedLock();
 
     public static void main(String[] args) throws Exception {
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -54,7 +45,12 @@ public class SynchronizedLockDemo {
         log.info("count:{}", count);
     }
 
-    private synchronized static void add() {
-        count++;
+    private static void add() {
+        long stamp = lock.writeLock();
+        try {
+            count++;
+        } finally {
+            lock.unlock(stamp);
+        }
     }
 }

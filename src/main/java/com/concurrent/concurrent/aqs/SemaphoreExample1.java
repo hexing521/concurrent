@@ -9,6 +9,11 @@ import java.util.concurrent.Semaphore;
 /**
  *【Semaphore】
  * 信号量  对线程的并发数的控制
+ *Semaphore常用于仅能提供有限访问的资源的并发数，比如数据库的连接数
+ *
+ * Semaphore常用于仅能提供有限访问的资源
+ * 1、可以一次获取多个许可semaphore.acquire(n)，也可以一次是否多个许可semaphore.release(n)
+ * 2、可以尝试获取许可（单个或多个）tryAcquire()，并且可以设置尝试获取的超时时间
  */
 @Slf4j
 public class SemaphoreExample1 {

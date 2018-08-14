@@ -9,6 +9,15 @@ import java.util.concurrent.Executors;
 /**
  * 【countDownLatch】
  * 主要是来做线程同步的组件
+ *
+ * 具有原子性减一操作的不可重置计数器
+ * 应用场景：并行计算时，需要等待全部线程均执行完成，统计执行结果，才继续后面的逻辑
+ *
+ *CountDownLatch:
+ *两个方法：countDown()  await()
+ *创建 CountDownLatch对象时，需要指定一个计数的数字
+ *调用countDown()计数-1，当countDown后为0时，调用await（）方法后面的代码才会继续执行。
+ *可以在await（）中指定时间，表示过了这个时间，不管线程是否计数完毕都会往下继续执行。
  */
 @Slf4j
 public class CountDownLatchExample1 {
