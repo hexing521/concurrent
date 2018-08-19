@@ -10,6 +10,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * 【ReentrantReadWriteLock】
+ *  悲观读取
+ *  在没有任何读写锁的情况下  才可以获取写入的锁
  *  读多写少时，ReentrantReadWriteLock可能遭遇饥饿： 例如：读锁一直在使用则写锁一直会处于等待状态
  */
 @Slf4j

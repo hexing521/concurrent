@@ -2,6 +2,10 @@ package com.concurrent.concurrent.lock;
 
 import java.util.concurrent.locks.StampedLock;
 
+/**
+ * 【StampedLock】
+ *  乐观锁机制
+ */
 public class StampedLockdemo1 {
 
     class Point {

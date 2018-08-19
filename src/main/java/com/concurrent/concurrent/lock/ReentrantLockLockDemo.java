@@ -20,6 +20,8 @@ import java.util.concurrent.locks.ReentrantLock;
  *  3,提供能够终端等待锁的机制 lock.lockInterruptibly()
  *
  *
+ *
+ *
  */
 @Slf4j
 public class ReentrantLockLockDemo {
