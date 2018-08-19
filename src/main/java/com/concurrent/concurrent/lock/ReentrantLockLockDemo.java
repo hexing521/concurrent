@@ -11,10 +11,15 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 【ReentrantLock锁机制】
+ *  原理：加锁 内部的计数器+1  释放锁 内部的计数器为0才释放锁
+ *  ====都是在用户端解决加锁的问题从而避免内核态的阻塞等待===
+ *
  *  ReentranLock独有的功能:
  *  1,可指定公平锁或者是非公平锁
  *  2,提供一个condition类，可以分组唤醒需要唤醒的线程
  *  3,提供能够终端等待锁的机制 lock.lockInterruptibly()
+ *
+ *
  */
 @Slf4j
 public class ReentrantLockLockDemo {

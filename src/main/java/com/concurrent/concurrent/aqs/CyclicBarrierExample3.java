@@ -15,6 +15,7 @@ public class CyclicBarrierExample3 {
     /**
      * barrier.await();执行完之后 会先执行这里顶一顶runnable线程
      * 然后在执行barrier.await();之后的代码
+     * 线程到达这个屏障的时候优先执行这个Runnable
      */
     private static CyclicBarrier barrier = new CyclicBarrier(5, () -> {
         log.info("callback is running");

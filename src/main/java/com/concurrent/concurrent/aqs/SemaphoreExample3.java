@@ -25,7 +25,7 @@ public class SemaphoreExample3 {
             final int threadNum = i;
             exec.execute(() -> {
                 try {
-                    if (semaphore.tryAcquire()) { //todo 尝试获取一个许可  如果获取到了许可则执行 获取不到许可则放弃
+                    if (semaphore.tryAcquire()) { //todo 尝试获取一个许可  如果获取到了许可则执行 获取不到许可则放弃不执行
                         test(threadNum);
                         semaphore.release(); // TODO 释放一个许可
                     }
