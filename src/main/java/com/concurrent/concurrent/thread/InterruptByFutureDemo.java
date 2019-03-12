@@ -2,7 +2,11 @@ package com.concurrent.concurrent.thread;
 
 import java.util.concurrent.*;
 
-public class InterruptByFuture {
+/**
+ * 使用future中断线程
+ * ref:https://www.jianshu.com/p/536b0df1fd55
+ */
+public class InterruptByFutureDemo {
 
     public static void main(String[] args) throws Exception {
         ExecutorService es = Executors.newSingleThreadExecutor();
@@ -18,6 +22,10 @@ public class InterruptByFuture {
         } catch (ExecutionException e) {
             throw e;
         } finally {
+            /**
+             *mayInterruptIfRunning=true时，任务如果在某个线程中运行，那么这个线程能够被中断；
+             *mayInterruptIfRunning=false时，任务如果还未启动，就不要运行它，应用于不处理中断的任务
+             */
             boolean mayInterruptIfRunning = true;
             task.cancel(mayInterruptIfRunning);
         }
