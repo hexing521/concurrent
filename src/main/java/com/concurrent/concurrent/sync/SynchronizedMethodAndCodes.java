@@ -1,5 +1,6 @@
 package com.concurrent.concurrent.sync;
 
+
 class TestSynchronized {
     //对象锁
     public void test1() {
@@ -16,7 +17,7 @@ class TestSynchronized {
         }
     }
 
-    //方法锁
+    //方法锁-对象锁
     public synchronized void test2() {
         int i = 5;
         while (i-- > 0) {
@@ -42,7 +43,7 @@ class TestSynchronized {
         }
     }
 
-    //静态方法锁
+    //静态方法锁-class类锁
     public static synchronized void test4() {
         int i = 5;
         while (i-- > 0) {
@@ -89,26 +90,34 @@ class TestSynchronized {
  * test2是非静态方法锁,test4是静态方法锁，运行结果是交替进行的，这证明了类锁和对象锁是两个不一样的锁，
  * 控制着不同的区域，它们是互不干扰的。同样，线程获得对象锁的同时，也可以获得该类锁，即同时获得两个锁，这是允许的。
  * <p>
+ * 第五种情况:对于不同对象之间的情况(对象锁):
+ * test1和test2两个对象都调用各自的test2()方法，因为test2()方法是对象锁，而test1和test2是两个对象，所以他们获取锁各不影响;
+ * <p>
+ * 第六种情况:对于不同对象的类锁:
+ * test1和test2两个对象都调用各自的test4()方法,因为test4()方法是class类锁，而test1和test2两个对象同属于一个类,所以他们相当于
+ * 竞争同一把锁,所以会造成锁等待；
+ * <p>
  * 一个类的对象锁和另一个类的对象锁是没有关联的，当一个线程获得A类的对象锁时，它同时也可以获得B类的对象锁。
  */
 public class SynchronizedMethodAndCodes {
 
     public static void main(String[] args) {
-        TestSynchronized test = new TestSynchronized();
+        TestSynchronized test1 = new TestSynchronized();
+        TestSynchronized test2 = new TestSynchronized();
         Thread th1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                test.test4();
+                test1.test5();
             }
-        }, "test4");
+        }, "th1");
 
 
         Thread th2 = new Thread(new Runnable() {
             @Override
             public void run() {
-                test.test2();
+                test2.test5();
             }
-        }, "test2");
+        }, "th2");
 
         th1.start();
         th2.start();
