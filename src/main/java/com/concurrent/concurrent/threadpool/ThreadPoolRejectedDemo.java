@@ -33,7 +33,7 @@ class MyRunnable implements Runnable {
  */
 public class ThreadPoolRejectedDemo {
     private static int THREADS_SIZE = 1;
-    private static int CAPACITY = 3;
+    private static int CAPACITY = 1;
 
     /**
      * abortPolicy:当线程的个数达到线程池的maximumPoolSize最大值时，如果等待队列已满则AbortPolicy
@@ -111,7 +111,6 @@ public class ThreadPoolRejectedDemo {
                 new ArrayBlockingQueue<Runnable>(CAPACITY));
         // 设置线程池的拒绝策略为"CallerRunsPolicy"
         pool.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
-
         // 新建10个任务，并将它们添加到线程池中。
         for (int i = 0; i < 10; i++) {
             Runnable myrun = new MyRunnable("task-" + i);
